@@ -1,8 +1,8 @@
 import express from 'express'
-import {index} from '../controller/DashboardController.js'
+import {login} from '../controller/AuthController.js'
 
 const router = express.Router()
-router.get('/', index)
-
+router.get('/', login)
 export default router
+
 
